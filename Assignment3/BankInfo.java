@@ -1,6 +1,6 @@
 package week3.day1;
 
-public class BankInfo extends AxisBank{
+public class BankInfo {
 	//Child Class
 	
 	public void saving() {
@@ -15,11 +15,4 @@ public class BankInfo extends AxisBank{
 		System.out.println("Deposit Amount in Bank Info");
 	}
 
-	public static void main(String[] args) {
-		//Creating object for Child class
-		BankInfo b = new BankInfo();
-		//Method Overriding of deposit method in Axis Bank Class
-		b.deposit();
-
-	}
 }
